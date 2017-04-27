@@ -1,3 +1,12 @@
+<?php
+
+    $titulos    = ["Senhor", "Pai de Thor", "Tio"];
+    $qualidades = ["Fofo", "Cool", "Moderno" ];
+    $nome       = "Odin";
+
+
+?>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -13,7 +22,7 @@
 
     <body>
 
-    <h2> Olá </h2>
+    <h2> Olá <?php echo $titulos[rand(0,2)]." $nome, ".$qualidades[rand(0,2)]; ?> </h2>
 
     </body>
 
